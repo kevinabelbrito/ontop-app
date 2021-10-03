@@ -1,1 +1,63 @@
-<p>contract-list works!</p>
+<div class="list-content main-box-shadow">
+  <div class="row header-list">
+    <div class="col">Contractor name</div>
+    <div class="col">Type</div>
+    <div class="col">Start date</div>
+    <div class="col">Amount</div>
+    <div class="col">Status</div>
+    <div class="col">Actions</div>
+  </div>
+  <div class="row row-list my-3">
+    <div class="col-md">
+      <img src="/../assets/img/profile.svg" class="rounded mx-1" alt="profile" width="41">
+      <span>Dariene Robertson</span>
+    </div>
+    <div class="col-md">
+      <span>Traditional</span>
+    </div>
+    <div class="col-md">Mar 4, 2021</div>
+    <div class="col-md">$200 USD</div>
+    <div class="col-md">
+      <span class="success-tag">
+        <fa-icon [icon]="faCircle"></fa-icon>
+        Active
+      </span>
+    </div>
+    <div class="col-md">
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <fa-icon [icon]="faEllipsisV"></fa-icon>
+        </button>
+        <ul class="dropdown-menu main-box-shadow" aria-labelledby="dropdownMenuButton1">
+          <li>
+            <a class="dropdown-item" href="#">
+              <fa-icon [icon]="faEdit"></fa-icon>
+              Edit
+            </a>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <fa-icon [icon]="faSignature"></fa-icon>
+              Sign
+            </a>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <fa-icon [icon]="faFileAlt"></fa-icon>
+              View summary
+            </a>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <fa-icon [icon]="faTrashAlt" class="delete"></fa-icon>
+              Delete
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

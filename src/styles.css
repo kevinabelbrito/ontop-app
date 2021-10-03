@@ -2,3 +2,31 @@
 body {
   background-color: #F9F9F9;
 }
+
+.main-box-shadow {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  border: none;
+  padding: 0.5rem;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #EBEBEB;
+}
+
+.dropdown-menu li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #3B3B3B;
+}
+
+.dropdown-menu li a fa-icon {
+  color: #898989;
+  margin-right: 5px;
+}

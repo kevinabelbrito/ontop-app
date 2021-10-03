@@ -1,0 +1,56 @@
+.list-content {
+  background-color: #FFF;
+  mix-blend-mode: normal;
+  padding: 1rem 1.5rem;
+}
+
+.header-list .col {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.row-list {
+  background-color: #F9F9F9;
+  padding: 1rem;
+}
+
+.row-list .col-md {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #3B3B3B;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.row-list .dropdown-toggle {
+  color: #C4C4C4;
+  font-size: 24px;
+}
+
+.success-tag {
+  background: rgba(54, 207, 130, 0.18);
+  border-radius: 20px;
+  color: #36CF82;
+  display: block;
+  padding: 0.5rem 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.success-tag fa-icon {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.dropdown-menu li a fa-icon.delete {
+  color: #FF5A70;
+}
