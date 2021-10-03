@@ -9,16 +9,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav options-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active dropdown-toggle" aria-current="page" href="#">Contracts</a>
+          <a class="nav-link active dropdown-toggle" aria-current="page" href="#">
+            <fa-icon [icon]="faUser"></fa-icon>
+            Contracts
+          </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#">Documents</a>
+          <a class="nav-link dropdown-toggle" href="#">
+            <fa-icon [icon]="faFileAlt"></fa-icon>
+            Documents
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <fa-icon [icon]="faWallet"></fa-icon>
             Payout
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu main-box-shadow" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -26,7 +33,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link dropdown-toggle">Time</a>
+          <a class="nav-link dropdown-toggle">
+            <fa-icon [icon]="faCalendarAlt"></fa-icon>
+            Time
+          </a>
         </li>
       </ul>
       <ul class="navbar-nav d-flex">
@@ -34,7 +44,7 @@
           <a class="profile-btn nav-link dropdown-toggle px-4" id="navbarProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="/../assets/img/profile.svg" class="rounded" alt="profile" width="65">
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarProfile">
+          <ul class="dropdown-menu main-box-shadow" aria-labelledby="navbarProfile">
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#">Settings</a></li>
             <li><hr class="dropdown-divider"></li>

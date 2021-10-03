@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faWallet } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faFileAlt, faCalendarAlt } from '@fortawesome/free-regular-svg-icons'
 
 @Component({
   selector: 'app-menu-header',
@@ -6,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-header.component.css']
 })
 export class MenuHeaderComponent implements OnInit {
+
+  faUser = faUser
+  faFileAlt = faFileAlt
+  faWallet = faWallet
+  faCalendarAlt = faCalendarAlt
 
   constructor() { }
 
