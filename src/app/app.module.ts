@@ -6,6 +6,7 @@ import { ContractComponent } from './contract/contract.component';
 import { MenuHeaderComponent } from './menu-header/menu-header.component';
 import { ContractFilterComponent } from './contract/contract-filter/contract-filter.component';
 import { ContractListComponent } from './contract/contract-list/contract-list.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContractListComponent } from './contract/contract-list/contract-list.co
     ContractListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
