@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
 /* You can add global styles to this file, and also import other style files */
 body {
   background-color: #F9F9F9;
+  font-family: 'Spartan', sans-serif;
 }
 
 .main-box-shadow {
