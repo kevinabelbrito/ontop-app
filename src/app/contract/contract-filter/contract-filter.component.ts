@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faSearch, faSlidersH, faPlus } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-contract-filter',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contract-filter.component.css']
 })
 export class ContractFilterComponent implements OnInit {
+
+  faSearch = faSearch
+  faSlidersH = faSlidersH
+  faPlus = faPlus
 
   constructor() { }
 

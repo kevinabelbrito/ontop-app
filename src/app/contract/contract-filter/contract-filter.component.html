@@ -1,35 +1,55 @@
 <div class="row my-4">
-  <div class="col-9">
-    <input type="text" class="form-control" placeholder="Search" />
+  <div class="col-lg-9 col-md-8">
+    <div class="form-floating">
+      <input type="text" class="form-control input-search" id="floatingInputGridSearch" placeholder="Search">
+      <label for="floatingInputGridSearch">
+        <fa-icon [icon]="faSearch"></fa-icon>
+        Search
+      </label>
+    </div>
   </div>
-  <div class="col-3">
-    <button type="button" class="btn btn-light mx-3">
+  <div class="col-lg-3 col-md-4 text-center">
+    <button type="button" class="filter-button mx-3">
+      <fa-icon [icon]="faSlidersH"></fa-icon>
       Filter
     </button>
-    <button type="button" class="btn btn-danger">
+    <button type="button" class="hire-button">
+      <fa-icon [icon]="faPlus"></fa-icon>
       New hire
     </button>
   </div>
 </div>
-<div class="row my-4">
-  <div class="col-3">
-    <input type="date" class="form-control" />
+<div class="row g-4 my-4">
+  <div class="col-md">
+    <div class="form-floating">
+      <input type="date" class="form-control main-box-shadow" id="floatingInputGridCreatedOn" placeholder="Created on:">
+      <label for="floatingInputGridCreatedOn">Created on:</label>
+    </div>
   </div>
-  <div class="col-3">
-    <select class="form-control">
-      <option value="">Contract Type</option>
-      <option value="">Normal</option>
-      <option value="">Especial</option>
-    </select>
+  <div class="col-md">
+    <div class="form-floating">
+      <select class="form-select main-box-shadow" id="floatingSelect" aria-label="Floating label select example">
+        <option value=""></option>
+        <option value="">Normal</option>
+        <option value="">Especial</option>
+      </select>
+      <label for="floatingSelect">Contract type</label>
+    </div>
   </div>
-  <div class="col-3">
-    <input type="text" class="form-control" placeholder="Contract Name" />
+  <div class="col-md">
+    <div class="form-floating">
+      <input type="email" class="form-control main-box-shadow" id="floatingInputGridName" placeholder="Contract Name">
+      <label for="floatingInputGridName">Contract Name</label>
+    </div>
   </div>
-  <div class="col-3">
-    <select class="form-control">
-      <option value="">Status</option>
-      <option value="">Active</option>
-      <option value="">Signature Pending</option>
-    </select>
+  <div class="col-md">
+    <div class="form-floating">
+      <select class="form-select main-box-shadow" id="floatingSelectGridStatus" aria-label="Floating label select example">
+        <option selected></option>
+        <option value="">Active</option>
+        <option value="">Signature Pending</option>
+      </select>
+      <label for="floatingSelectGridStatus">Status</label>
+    </div>
   </div>
 </div>
