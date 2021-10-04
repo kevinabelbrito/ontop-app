@@ -1,10 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand px-5" href="#">
-      <img src="/../assets/img/logo.svg" alt="logo" width="145">
+      <img src="/../assets/img/logo.svg" alt="logo" class="logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler text-center p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <fa-icon [icon]="faBars"></fa-icon>
+      </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav options-nav mx-auto">
@@ -41,8 +43,9 @@
       </ul>
       <ul class="navbar-nav d-flex">
         <li class="nav-item">
-          <a class="profile-btn nav-link dropdown-toggle px-4" id="navbarProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="/../assets/img/profile.svg" class="rounded" alt="profile" width="65">
+          <a class="profile-btn nav-link dropdown-toggle px-lg-4" id="navbarProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="d-lg-none me-2">Kevin Brito</span>
+            <img src="/../assets/img/profile.svg" class="rounded profile-img" alt="profile">
           </a>
           <ul class="dropdown-menu main-box-shadow" aria-labelledby="navbarProfile">
             <li><a class="dropdown-item" href="#">Profile</a></li>

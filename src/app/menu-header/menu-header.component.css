@@ -4,6 +4,19 @@ nav.navbar {
   padding: 0;
 }
 
+.navbar-toggler {
+  border: none;
+  color: #FF5A70;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background: none;
+}
+
 .options-nav .nav-link {
   font-style: normal;
   font-weight: bold;
@@ -19,10 +32,38 @@ nav.navbar {
   color: #FF5A70;
 }
 
-.navbar-nav li {
-
+.navbar-toggler-icon {
+  padding: 0.2rem;
 }
 
 fa-icon {
   margin-right: 5px;
+}
+
+.logo {
+  width: 145px;
+}
+
+.profile-img {
+  width: 65px;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  .options-nav .nav-link {
+    font-size: 12px;
+    padding: 0.7rem;
+  }
+
+  .navbar-nav .nav-link.active {
+    border-bottom: 2px solid #FF5A70;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .profile-img {
+    width: 30px;
+  }
 }

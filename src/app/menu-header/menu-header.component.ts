@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faWallet } from '@fortawesome/free-solid-svg-icons'
+import { faWallet, faBars } from '@fortawesome/free-solid-svg-icons'
 import { faUser, faFileAlt, faCalendarAlt } from '@fortawesome/free-regular-svg-icons'
 
 @Component({
@@ -13,6 +13,7 @@ export class MenuHeaderComponent implements OnInit {
   faFileAlt = faFileAlt
   faWallet = faWallet
   faCalendarAlt = faCalendarAlt
+  faBars = faBars
 
   constructor() { }
 
