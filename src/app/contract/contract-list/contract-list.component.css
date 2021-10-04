@@ -54,3 +54,29 @@
 .dropdown-menu li a fa-icon.delete {
   color: #FF5A70;
 }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .list-content {
+    background: none;
+    box-shadow: none;
+  }
+
+  .row-list {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .row-list {
+    font-size: 12px;
+    line-height: 20px;
+    color: #3B3B3B;
+    padding: 0.5rem 0;
+    text-align: left;
+  }
+}
